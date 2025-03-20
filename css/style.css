@@ -50,3 +50,11 @@ nav {
 .submenu li a:hover {
     background-color: #132F2B;
 }
+
+.imagem {
+    padding: 5px 650px;
+}
+
+h5 {
+    text-align: center;
+}
