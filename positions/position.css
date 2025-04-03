@@ -1,0 +1,23 @@
+.main-element {
+    position: static;
+    left: 10px;
+    bottom: 10px;
+    background-color: #A62C2C;
+    padding: 10px;
+}
+
+.parent-element {
+    position: relative;
+    height: 800px;
+    padding: 50px 10px;
+    background-color: #EA7300;
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: #E83F25;
+}
+
+.html {
+    height: 800px;
+}
