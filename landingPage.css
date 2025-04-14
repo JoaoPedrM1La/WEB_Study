@@ -77,30 +77,15 @@ p {
     color: white;
 }
 
-.btn-primary:hover {
-    background-color: var(--primary-dark);
-    transform: translateY(-2px);
-}
-
 .btn-secondary {
     background-color: var(--secondary);
     color: white;
-}
-
-.btn-secondary:hover {
-    opacity: 0.9;
-    transform: translateY(-2px);
 }
 
 .btn-outline {
     background-color: transparent;
     border: 2px solid var(--primary);
     color: var(--primary);
-}
-
-.btn-outline:hover {
-    background-color: var(--primary);
-    color: white;
 }
 
 /* Header Styles */
@@ -147,10 +132,6 @@ nav {
     color: var(--dark);
     font-weight: 500;
     transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: var(--primary);
 }
 
 .mobile-menu-btn {
@@ -220,11 +201,6 @@ nav {
     padding: 30px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .feature-icon {
@@ -356,10 +332,6 @@ nav {
     color: var(--primary);
 }
 
-.cta .btn:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
 /* Footer */
 footer {
     background-color: var(--dark);
@@ -394,10 +366,6 @@ footer {
     transition: color 0.3s ease;
 }
 
-.footer-column a:hover {
-    color: white;
-}
-
 .social-links {
     display: flex;
     gap: 15px;
@@ -413,11 +381,6 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
     transition: all 0.3s ease;
-}
-
-.social-links a:hover {
-    background-color: var(--primary);
-    transform: translateY(-3px);
 }
 
 .footer-bottom {
